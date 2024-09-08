@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest",
-    "test:integration":"./scripts/run-integration.sh"
+    "test:integration": "bash ./scripts/run-integration.sh"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +17,9 @@
     "prisma": "^5.19.1",
     "typescript": "^5.5.4",
     "vitest": "^2.0.5"
+  },
+  "devDependencies": {
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0"
   }
 }
